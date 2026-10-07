@@ -15,7 +15,7 @@ namespace DatabaseTask.Data
 
         public DbSet<Room> Rooms { get; set; }
 
-        public DbSet<Booking> Bookings { get; set; }
+        public DbSet<Booking> Booking { get; set; }
 
         public DbSet<Guests> Guests { get; set; }
 
@@ -28,5 +28,7 @@ namespace DatabaseTask.Data
         public DbSet<Payment> Payments { get; set; }
 
         public DbSet<Payroll> Payrolls { get; set; }
+
+        public DbSet<Bookable> Bookables { get; set; }
     }
 }
